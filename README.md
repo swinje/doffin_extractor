@@ -3,6 +3,8 @@
 
 <h2>Doffin is the Norwegian Database for public procurements (doffin.no)</h2>
 
+IMPORTANT: the doffin data is downloaded into a file. Download will fail if the directory executed from is not writable.<br>
+
 Usage:<br>
   doffin_extractor [command]<br>
 
