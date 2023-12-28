@@ -21,10 +21,10 @@ Flags:
 
 Use "doffin_extractor [command] --help" for more information about a command.
 
-To build;
-Install golang: https://go.dev/doc/install
-Clone
-Run go build .
-Run go install .
+To build:<br>
+Install golang: https://go.dev/doc/install<br>
+Clone<br>
+go build .<br>
+go install .<br>
 
 
