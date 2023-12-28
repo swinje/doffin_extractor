@@ -5,7 +5,7 @@ Usage:
   doffin_extractor [command]
 
 Available Commands:
-  description Search by descripotion
+  description Search by description
   heading     Search by heading
   help        Help about any command
   id          Search by ID
