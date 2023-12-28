@@ -72,3 +72,17 @@ func SearchRecent(c Competition, days string) []int {
 	}
 	return r
 }
+
+func SearchBuyer(c Competition, term string) []int {
+	var r []int
+	log.Println("Searching for ", term)
+	re := regexp.MustCompile(`(?i)\b` + term + `\b`)
+	for i, hit := range c.Hits {
+		for j := range hit.Buyer {
+			if re.MatchString(hit.Buyer[j].Name) {
+				r = append(r, i)
+			}
+		}
+	}
+	return r
+}

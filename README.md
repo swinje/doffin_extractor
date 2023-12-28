@@ -9,6 +9,7 @@ Usage:<br>
   doffin_extractor [command]<br>
 
 Available Commands:<br>
+  buyer&emsp;Search by buyer<br>
   description&emsp;Search by description<br>
   heading&emsp;Search by heading<br>
   help&emsp;Help about any command<br>

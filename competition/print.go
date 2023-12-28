@@ -18,7 +18,7 @@ func PrintRecords(c Competition, idx []int) {
 		color.Cyan("Publisert: %s", c.Hits[j].IssueDate.Format("02.01 2006"))
 		color.Cyan("Frist: %s", c.Hits[j].Deadline.Format("02.01 2006"))
 		for _, b := range c.Hits[j].Buyer {
-			color.Cyan("Kjøper: %s", b.Name)
+			color.Magenta("Kjøper: %s", b.Name)
 		}
 		color.Cyan("Status: %s", c.Hits[j].Status)
 		if c.Hits[j].EstimatedValue != nil {
